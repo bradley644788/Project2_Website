@@ -9,8 +9,5 @@
     $content = $_POST['post_txt'];
 
     echo $title;
-?>
-<br>
-<?php
     echo $content;
 ?>

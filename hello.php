@@ -11,7 +11,7 @@
         <h2>Method 1</h2>
 
         <?php
-            echo "Hello World!";
+        echo "Hello World!";
         ?>
 
         <br>
@@ -19,11 +19,11 @@
         <h2>Method 2</h2>
 
         <?php
-            $words = array("Hello", "World", "This", "Is", "A", "Test", "Script");
+        $words = array("Hello", "World", "This", "Is", "A", "Test", "Script");
 
-            foreach ($words as $word) {
-                echo "$word | ";
-            }
+        foreach ($words as $word) {
+            echo "$word | ";
+        }
         ?>
     </body>
 </html>
